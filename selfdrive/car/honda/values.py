@@ -416,6 +416,7 @@ FW_VERSIONS = {
       b'78109-TBC-A740\x00\x00',
       b'78109-TFJ-G020\x00\x00',
       b'78109-TGG-A210\x00\x00',
+      b'78109-TGG-A220\x00\x00',
       b'78109-TGG-A310\x00\x00',
       b'78109-TGG-A320\x00\x00',
       b'78109-TGG-A810\x00\x00',
@@ -438,7 +439,7 @@ FW_VERSIONS = {
     ],
     (Ecu.unknown, 0x18daeff1, None): [
       b'38897-TBA-A110\x00\x00',
-      b'38897-TBA-A020\x00\x00',
+      b'38897-TBA-A020\x00\x00',  # TODO: Why is this both UNKNOWN & gateway?
     ],
     (Ecu.gateway, 0x18daeff1, None): [
       b'38897-TBA-A110\x00\x00',
